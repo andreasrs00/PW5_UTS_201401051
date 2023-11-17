@@ -1,3 +1,4 @@
+/* Membuat Color System */
 :root {
   --color1: #393646;
   --color2: #4f4557;
@@ -5,6 +6,7 @@
   --color4: #f4eee0;
 }
 
+/* mewarnai dan menyesuaikan halaman */
 * {
   padding: 0;
   margin: 0;
@@ -18,6 +20,7 @@ body {
   display: flexbox;
   background-color: var(--color4);
 }
+/* menyesuaikan navbar */
 #navbarNavDropdown ul li a {
   font-size: 20px;
   color: var(--color4);
@@ -36,6 +39,8 @@ body {
   border-color: var(--color2);
   transition: all 0.3s ease 0s;
 }
+
+/* mewarnai dan menyesuaikan isi konten */
 .container-mid {
   height: 87vh;
   display: flex;
@@ -73,4 +78,9 @@ body {
   .container-image img {
     object-fit: fill;
     border-radius: 55px;
+  }
+
+  /* Mewarnai Footer */
+.footer.p-3 a {
+    color: var(--color4);
   }
